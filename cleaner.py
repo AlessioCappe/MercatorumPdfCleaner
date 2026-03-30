@@ -47,9 +47,12 @@ if args.dpi > 0:
 
 def cleanPageWatermark(page):
     backgroundImgHashes = [
+        # Mercatorum
 		'668df6907cf9280c069050f61272dee4', 
 		'd45621e8eefcf5de2cd97ff5e05a8470', 
-		'3ffb92b2e0a0cf0998c9618c7217539b'
+		'3ffb92b2e0a0cf0998c9618c7217539b',
+        # Pegaso
+        '5b806011763983a79b98a9ddb0e8c22e'
 	]
     found = False
 
