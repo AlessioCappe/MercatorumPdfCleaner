@@ -52,7 +52,10 @@ def cleanPageWatermark(page):
 		'd45621e8eefcf5de2cd97ff5e05a8470', 
 		'3ffb92b2e0a0cf0998c9618c7217539b',
         # Pegaso
-        '5b806011763983a79b98a9ddb0e8c22e'
+        '5b806011763983a79b98a9ddb0e8c22e',
+        '9a238540e5719a445a27f58c3f8146c9',
+        # San Raffaele - Roma
+        '9403f1dd8954e15aa1bbd2aa1b8c085b'
 	]
     found = False
 
@@ -163,8 +166,8 @@ def copyTextBlockBetweenPages2(pageSource, pageDest, toPrint = False):
 doc = pymupdf.open(args.originalFile)
 
 # DEBUG check the image in a single page to find the watermark img
-#analysePage(doc[1])
-#sys.exit()
+# analysePage(doc[7])
+# sys.exit()
 
 
 if not convertToText:
